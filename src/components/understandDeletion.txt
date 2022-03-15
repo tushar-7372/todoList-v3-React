@@ -1,0 +1,23 @@
+//** app.jsx
+
+parameters that we are sending to ToDoItem
+
+<ToDoItem 
+onChecked={deleteItem}
+text={todoItem} 
+/>
+
+
+function deleteItem(){
+  
+}
+
+
+/** ToDoItem.jsx
+
+<div 
+onClick={props.onChecked} => when onClicked props.onChecked happens 
+                             that calls the deleteItem method
+                             that deleteItem is a function in app.js that 
+                             can be called from this todoItem file
+
